@@ -44,7 +44,7 @@
     <script src="https://kit.fontawesome.com/2f8dc96037.js" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -77,18 +77,18 @@
                 <a href="www.linkedin.com/in/joelle-taufana"><i class='bx bxl-linkedin-square'></i></a>
                 <a href="https://github.com/JoeTaufana"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="../documents/TAUFANA_JOELLE_DEVELOPPEUSE.pdf" download="TAUFANA_JOELLE_DEVELOPPEUSE.pdf"
+            <a href="documents/TAUFANA_JOELLE_DEVELOPPEUSE.pdf" download="TAUFANA_JOELLE_DEVELOPPEUSE.pdf"
                 class="btn">Télécharcher CV</a>
         </div>
         <div class="home-img">
-            <img src="../images/joe.png" alt="">
+            <img src="images/joe.png" alt="">
         </div>
     </section>
 
     <!--design section A propos  -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="../images/joe.png" alt="">
+            <img src="images/joe.png" alt="">
         </div>
 
         <div class="about-content">
@@ -214,7 +214,7 @@
                 </div> -->
 
             <div class="portfolio-box">
-                <img src="../images/tesPtitesMains.png" alt="">
+                <img src="images/tesPtitesMains.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Tes p'tites mains vertes</h4>
                     <p>Projet réalisé en 2 jours, en équipe, lors d'un hackaton au profit de l'association.</p>
@@ -223,7 +223,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="../images/logo.LillePacifique.png" alt="">
+                <img src="images/logo.LillePacifique.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Lille du Pacifique</h4>
                     <p>Projet qui sera présenté lors de la soutenance.</p>
@@ -232,7 +232,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="../images/backgroundAccueil.png" alt="">
+                <img src="images/backgroundAccueil.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Portfolio</h4>
                     <p>Exercice d'entraînement </p>
