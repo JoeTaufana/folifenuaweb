@@ -238,15 +238,15 @@
         <section class="contact" id="contact">
             <h2 class="heading">Contactez-<span>Moi!</span></h2>
 
-            <?php include('/mailer.php'); ?>
-            <form action="/index.php" method="POST">
+            <?php include('mailer.php'); ?>
+            <form action="mailer.php" method="POST">
                 <div class="input-box">
-                    <input type="text" name="nom" placeholder="Nom" pattern="[A-Za-z]{1,30}" required>
+                    <input type="text" name="nom" placeholder="Nom" maxlength="30" required>
                     <input type="email" name="email" placeholder="Adresse mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
                 </div>
                 <div class="input-box">
                     <input type="tel" name="telephone" pattern="[0-9]{10}" placeholder="Téléphone" required>
-                    <input type="text" name="sujet" placeholder="Sujet" pattern="[A-Za-z]{1,100}" required>
+                    <input type="text" name="sujet" placeholder="Sujet" maxlength="100" required>
                 </div>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" maxlength="500" required></textarea>
 
