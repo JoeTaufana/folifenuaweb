@@ -238,7 +238,8 @@
         <section class="contact" id="contact">
             <h2 class="heading">Contactez-<span>Moi!</span></h2>
 
-            <form action="index.html" method="POST">
+            <?php include('mailer.php'); ?>
+            <form action="index.php" method="POST">
                 <div class="input-box">
                     <input type="text" name="nom" placeholder="Nom" pattern="[A-Za-z]{1,30}" required>
                     <input type="email" name="email" placeholder="Adresse mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
