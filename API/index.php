@@ -290,7 +290,7 @@
         }
         ?>
 
-        <form action="mailer.php" method="POST">
+        <form action="index.php" method="POST">
             <div class="input-box">
                 <input type="text" name="nom" placeholder="Nom" maxlength="30" required>
                 <input type="email" name="email" placeholder="Adresse mail"
